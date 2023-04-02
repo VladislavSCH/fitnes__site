@@ -798,11 +798,10 @@ main{
 }
 .block__instagram{
     display: grid;
-    grid-template-columns: repeat(3,364px);
+    grid-template-columns: repeat(2,160px);
     gap: 0px;
     grid-auto-rows: minmax(100px, auto);
     justify-items: center;
-    margin-left: 75px;
 }
 
 
@@ -813,7 +812,7 @@ main{
     }
     .block__instagram{
         display: grid;
-        grid-template-columns: 2, 1fr;
+        grid-template-columns: repeat( 2, 1fr);
         grid-auto-rows: minmax(100px, auto);
     }
     .block__instagram-img img{
@@ -829,7 +828,7 @@ main{
     }
     .block__instagram{
         display: grid;
-        grid-template-columns: 3, 30px;
+        grid-template-columns: repeat(3, 426px);
         grid-auto-rows: minmax(100px, auto);
     }
     .block__instagram-img img{
